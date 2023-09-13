@@ -20,7 +20,7 @@ message UzumProductChange {
   string title = 2;
   int64 total_available_amount = 3;
   int64 orders = 4;
-  int64 reviewsAmount = 5;
+  int64 reviews_amount = 5;
   double rating = 6;
   string description = 7;
   repeated string tags = 8;
