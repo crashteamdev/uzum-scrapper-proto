@@ -8,6 +8,6 @@ on:
 
 jobs:
   deploy:
-    uses: crashteamdev/jvm-workflows/.github/workflows/maven-protobuf-deploy.yml@v2
+    uses: crashteamdev/jvm-workflows/.github/workflows/maven-protobuf-deploy.yml@v1
     secrets:
       mm-webhook-url: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
