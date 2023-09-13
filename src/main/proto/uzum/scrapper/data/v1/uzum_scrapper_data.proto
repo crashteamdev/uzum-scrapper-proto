@@ -3,7 +3,6 @@ syntax = "proto3";
 package uzum.scrapper.data.v1;
 
 import "google/protobuf/timestamp.proto";
-import "uzum/scrapper/base/v1/base.proto";
 
 option java_package = "dev.crashteam.uzum.scrapper.data.v1";
 option java_multiple_files = true;
