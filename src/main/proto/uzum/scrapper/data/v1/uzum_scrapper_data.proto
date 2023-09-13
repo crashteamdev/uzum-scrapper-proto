@@ -97,9 +97,7 @@ message UzumScrapperEvent {
 
   message EventPayload {
     oneof payload {
-      // Registry transaction. This is transactions from a payment provider
       UzumProductChange uzum_product_change = 1;
-      // Source transaction. This is a transaction from a payment source
       UzumProductCategoryPositionChange uzum_product_position_change = 2;
       UzumCategoryChange uzum_category_change = 3;
     }

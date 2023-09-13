@@ -23,7 +23,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Empayre Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/empayre/registry-config-proto</url>
+            <url>https://maven.pkg.github.com/empayre/uzum-scrapper-proto</url>
         </repository>
     </distributionManagement>
 
