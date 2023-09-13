@@ -19,14 +19,6 @@
         <grpc.version>1.51.1</grpc.version>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Empayre Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/empayre/uzum-scrapper-proto</url>
-        </repository>
-    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>io.grpc</groupId>
