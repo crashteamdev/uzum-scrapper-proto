@@ -8,7 +8,13 @@ option java_package = "dev.crashteam.uzum.scrapper.data.v1";
 option java_multiple_files = true;
 option java_outer_classname = "UzumScrapperDataProto";
 
-message UzumCharacteristic {
+message UzumValue {
+  string id = 1;
+  string title = 2;
+  string value = 3;
+}
+
+message UzumSkuCharacteristic {
   string type = 1;
   string title = 2;
   string value = 3;
@@ -33,7 +39,7 @@ message UzumProductChange {
   message UzumProductSku {
     string sku_id = 1;
     string photo_key = 2;
-    repeated UzumCharacteristic characteristics = 3;
+    repeated UzumSkuCharacteristic characteristics = 3;
     string purchase_price = 4;
     string full_price = 5;
     int64 available_amount = 6;
@@ -42,7 +48,7 @@ message UzumProductChange {
   message UzumProductCharacteristic {
     int64 id = 1;
     string title = 2;
-    repeated UzumCharacteristic values = 3;
+    repeated UzumValue values = 3;
   }
 
   message UzumProductSeller {
