@@ -33,6 +33,7 @@ message UzumProductChange {
   repeated UzumProductSku skus = 10;
   UzumProductCategory category = 11;
   repeated UzumProductCharacteristic characteristics = 12;
+  UzumProductSeller seller = 15;
   bool is_eco = 13;
   bool is_adult = 14;
 
