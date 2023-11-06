@@ -44,13 +44,12 @@ message UzumProductChange {
     string purchase_price = 4;
     string full_price = 5;
     int64 available_amount = 6;
-    Restriction restriction = 7;
+    optional Restriction restriction = 7;
   }
 
   message Restriction {
     int64 restrictedAmount = 1;
     int64 boughtAmount = 2;
-    bool restricted = 3;
   }
 
   message UzumProductCharacteristic {
