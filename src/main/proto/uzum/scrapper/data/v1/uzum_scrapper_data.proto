@@ -48,8 +48,8 @@ message UzumProductChange {
   }
 
   message Restriction {
-    int64 restrictedAmount = 1;
-    int64 boughtAmount = 2;
+    int64 restricted_amount = 1;
+    int64 bought_amount = 2;
   }
 
   message UzumProductCharacteristic {
